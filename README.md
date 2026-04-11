@@ -10,7 +10,7 @@ Currently a Founding Technical Contributor at [Tanish](https://github.com/alxlyn
 
 | Project | What it does | Stack |
 |---------|-------------|-------|
-| [URL Shortener](https://github.com/alxlyn/alex-url-shortener) | Production-style link shortener with analytics, deployed to Cloud Run with CI/CD | Python, Flask, PostgreSQL, Docker, GCP |
+| [URL Shortener](https://github.com/alxlyn/alex-url-shortener) | Production-style link shortener with analytics, deployed to Cloud Run with CI/CD | Python, FastAPI, PostgreSQL, Docker, GCP |
 | [Chess Engine](https://github.com/alxlyn/alex-chess-engine) | UCI-compatible engine with Negamax, Alpha-Beta pruning, and transposition tables | Python |
 | [Portfolio](https://github.com/alxlyn/personal-portfolio) | Personal site at [alekseilian.com](https://alekseilian.com) | React, Vite |
 
