@@ -1,41 +1,36 @@
 ### Hi, I'm Aleksei 👋
 
-I'm a Computer Science student at [York University](https://www.yorku.ca/) (Toronto) focused on backend development. I like building things that work correctly under pressure — concurrent APIs, search algorithms, and infrastructure that deploys itself.
+Backend engineer and CS student at [York University](https://www.yorku.ca/) (Toronto). I build products end to end and ship them — most recently a dating app through Apple review to TestFlight.
 
-Currently a Founding Technical Contributor at [Tanish](https://github.com/alxlyn), an early-stage startup where I work on backend architecture and debug production concurrency issues in Python.
+**Now:** building **Mendy** — an advice buddy that remembers you. FastAPI, async SQLAlchemy, PostgreSQL, and LLM conversations with long-term memory. Private while it's early.
+
+**Before:** co-founded **Tanish**, a dating app for Central Asia, and built the whole product — FastAPI/PostgreSQL backend with 2,200+ tests, React Native iOS app shipped to TestFlight, AWS face-liveness verification, and localization into 6 languages. The code is private, but the engineering story isn't: **[read the case study →](https://alekseilian.com/tanish)**
 
 ---
 
-#### What I've Built
+#### Public code
 
 | Project | What it does | Stack |
 |---------|-------------|-------|
-| [URL Shortener](https://github.com/alxlyn/alex-url-shortener) | Production-style link shortener with analytics, deployed to Cloud Run with CI/CD | Python, FastAPI, PostgreSQL, Docker, GCP |
-| [Chess Engine](https://github.com/alxlyn/alex-chess-engine) | UCI-compatible engine with Negamax, Alpha-Beta pruning, and transposition tables | Python |
+| [URL Shortener](https://github.com/alxlyn/alex-url-shortener) | Async link shortener — collision-safe inserts, LB-aware rate limiting, CI tests every route against live Postgres | Python, FastAPI, asyncpg, Redis, Docker |
+| [Chess Engine](https://github.com/alxlyn/alex-chess-engine) | UCI engine — negamax, alpha-beta, quiescence, transposition table, real clock management | Python |
 | [Portfolio](https://github.com/alxlyn/personal-portfolio) | Personal site at [alekseilian.com](https://alekseilian.com) | React, Vite |
 
 ---
 
-#### Tech I Work With
+#### Tech I work with
 
 ```
 Languages:      Python · Java · C · SQL · JavaScript
-Backend:        Flask · REST APIs · PostgreSQL
-Infrastructure: Docker · GCP (Cloud Run, Cloud Build) · Linux · Git · CI/CD
+Backend:        FastAPI · SQLAlchemy 2.0 (async) · Pydantic · WebSockets · PostgreSQL · Redis
+Infrastructure: Docker · Railway · GCP (Cloud Run) · AWS (Rekognition) · Linux · CI/CD
 ```
 
 ---
 
-#### What I'm Into Right Now
-
-- Distributed systems and concurrency patterns
-- Making APIs that don't break under load
-- Deploying things properly (Docker + CI/CD, not just localhost)
-
----
-
-#### Find Me
+#### Find me
 
 - **Portfolio:** [alekseilian.com](https://alekseilian.com)
 - **LinkedIn:** [linkedin.com/in/aleksei-lian](https://linkedin.com/in/aleksei-lian)
+- **X:** [@_alxlyn](https://x.com/_alxlyn)
 - **Email:** alekseilianv@gmail.com
