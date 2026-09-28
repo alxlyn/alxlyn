@@ -4,7 +4,7 @@ Backend engineer and CS student at [York University](https://www.yorku.ca/) (Tor
 
 **Now:** building **Mendy** — an advice buddy that remembers you. FastAPI, async SQLAlchemy, PostgreSQL, and LLM conversations with long-term memory. Private while it's early.
 
-**Before:** co-founded **Tanish**, a dating app for Central Asia, and built the whole product — FastAPI/PostgreSQL backend with 2,200+ tests, React Native iOS app shipped to TestFlight, AWS face-liveness verification, and localization into 6 languages. The code is private, but the engineering story isn't: **[read the case study →](https://alekseilian.com/tanish)**
+**Before:** co-founded **Tanish**, a dating app for Central Asia, and built the whole product — FastAPI/PostgreSQL backend with 2,300+ tests, React Native iOS app shipped to TestFlight, AWS face-liveness verification, and localization into 4 languages. The code is private, but the engineering story isn't: **[read the case study →](https://alekseilian.com/tanish)**
 
 ---
 
