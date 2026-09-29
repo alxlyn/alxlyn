@@ -1,10 +1,12 @@
 ### Hi, I'm Aleksei 👋
 
-Backend engineer and CS student at [York University](https://www.yorku.ca/) (Toronto). I build products end to end and ship them — most recently a dating app through Apple review to TestFlight.
+Backend engineer and CS student at [York University](https://www.yorku.ca/) (Toronto). Since January 2026 I've co-founded three products and built them as lead or sole engineer.
 
-**Now:** building **Mendy** — an advice buddy that remembers you. FastAPI, async SQLAlchemy, PostgreSQL, and LLM conversations with long-term memory. Private while it's early.
+- **Mendy:** an advice buddy that remembers you. FastAPI, async SQLAlchemy, PostgreSQL, and LLM conversations with long-term memory and a tiered safety pipeline.
+- **Arzan:** a cross-border marketplace. Sole engineer on a 90+ endpoint FastAPI/PostgreSQL API, a React/TypeScript operator console and an Expo app, with 1,600+ backend tests.
+- **Tanish:** a dating app for Central Asia. FastAPI/PostgreSQL backend with 2,300+ tests, a React Native iOS app on TestFlight, AWS face-liveness verification and 4 languages. **[Read the case study →](https://alekseilian.com/tanish)**
 
-**Before:** co-founded **Tanish**, a dating app for Central Asia, and built the whole product — FastAPI/PostgreSQL backend with 2,300+ tests, React Native iOS app shipped to TestFlight, AWS face-liveness verification, and localization into 4 languages. The code is private, but the engineering story isn't: **[read the case study →](https://alekseilian.com/tanish)**
+The startup code is private; the public repos are below.
 
 ---
 
@@ -21,9 +23,11 @@ Backend engineer and CS student at [York University](https://www.yorku.ca/) (Tor
 #### Tech I work with
 
 ```
-Languages:      Python · Java · C · SQL · JavaScript
-Backend:        FastAPI · SQLAlchemy 2.0 (async) · Pydantic · WebSockets · PostgreSQL · Redis
-Infrastructure: Docker · Railway · GCP (Cloud Run) · AWS (Rekognition) · Linux · CI/CD
+Languages:      Python · TypeScript · JavaScript · SQL · Java · C
+Backend:        FastAPI · SQLAlchemy 2.0 (async) · Pydantic · WebSockets · PostgreSQL · Redis · Supabase
+Frontend:       React · React Native (Expo)
+Infrastructure: Docker · GitHub Actions · Railway · Vercel · GCP · AWS (Rekognition) · Linux
+AI:             OpenAI and Anthropic APIs · eval rubrics and golden sets · AI code review
 ```
 
 ---
