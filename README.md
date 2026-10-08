@@ -1,9 +1,10 @@
 ### Hi, I'm Aleksei 👋
 
-Backend engineer and CS student at [York University](https://www.yorku.ca/) (Toronto). In 2026 I co-founded two startups: Tanish in April, as its backend engineer, and Arzan in May, as its sole engineer.
+Backend engineer and CS student at [York University](https://www.yorku.ca/) (Toronto). In 2026 I co-founded three startups: Tanish in April, as its backend engineer, Arzan in May, as its sole engineer, and Temir AI in August.
 
 - **Arzan:** a cross-border marketplace. Sole engineer on a 90+ endpoint FastAPI/PostgreSQL API, a React/TypeScript operator console and an Expo app, with 2,300+ backend tests.
 - **Tanish:** a dating app for Central Asia. FastAPI/PostgreSQL backend with 2,600+ tests, a React Native iOS app on TestFlight, AWS face-liveness verification and 4 languages. **[Read the case study →](https://alekseilian.com/tanish)**
+- **Temir AI:** an AI quoting tool. Our first customer, a metal supplier, had 4 sales managers at 2 warehouses turning orders sent as chat text, PDF, spreadsheet or photo into priced quotes; the LLM only extracts line items and every price comes from the catalog.
 
 Side project: **Mendy**, an advice buddy that remembers you (summer 2026). FastAPI, async SQLAlchemy, PostgreSQL, and LLM conversations with long-term memory and a tiered safety pipeline.
 
