@@ -12,7 +12,7 @@ The startup code is private. The public repos are below.
 
 #### How I work
 
-I use Claude Code and AI code review alongside my own work, on the startups and in parts of the public repos here. I make the design calls, check review findings against the source before fixing them, and rely on the test suites to catch what slips through. I started the URL shortener and the chess engine to learn the fundamentals: concurrency-safe inserts, connection pooling and game-tree search.
+I write code myself and use Claude Code and AI code review to go faster, on the startups and in parts of the public repos here. I make the design calls, check review findings against the source before fixing them, and rely on the test suites to catch what slips through. I started the URL shortener and the chess engine to learn the fundamentals: concurrency-safe inserts, connection pooling and game-tree search. I wrote them myself, with help from AI.
 
 #### Public code
 
