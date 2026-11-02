@@ -12,7 +12,9 @@ The startup code is private. The public repos are below.
 
 #### How I work
 
-I write code myself and use Claude Code and AI code review to go faster, on the startups and in parts of the public repos here. I make the design calls, check review findings against the source before fixing them, and rely on the test suites to catch what slips through. I started the URL shortener and the chess engine to learn the fundamentals: concurrency-safe inserts, connection pooling and game-tree search. I wrote them myself, with help from AI.
+I wrote the chess engine and the first Flask version of the URL shortener in February 2026, with AI help. Since March I build with Claude Code: I make the design calls, review what it writes, check review findings against the source before fixing them, and rely on the tests to catch what slips through. The shortener's FastAPI rewrite, its tests, the READMEs and my site were built that way.
+
+I re-uploaded these repos on Nov 2, 2026, after removing AI tool files and co-author lines from their history.
 
 #### Public code
 
