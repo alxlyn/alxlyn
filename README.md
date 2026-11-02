@@ -10,12 +10,6 @@ Over summer 2026 I also built Mendy, an advice app that remembers you: FastAPI, 
 
 The startup code is private. The public repos are below.
 
-#### How I work
-
-I wrote the chess engine and the first Flask version of the URL shortener in February 2026, with AI help. Since March I build with Claude Code: I make the design calls, review what it writes, check review findings against the source before fixing them, and rely on the tests to catch what slips through. The shortener's FastAPI rewrite, its tests, the READMEs and my site were built that way.
-
-I re-uploaded these repos on Nov 2, 2026, after removing AI tool files and co-author lines from their history.
-
 #### Public code
 
 | Project | What it does | Stack |
