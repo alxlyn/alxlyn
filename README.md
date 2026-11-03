@@ -2,13 +2,19 @@
 
 I'm a backend engineer and CS student at [York University](https://www.yorku.ca/) in Toronto. In 2026 I co-founded three startups: Tanish in April as its backend engineer, Arzan in May as its sole engineer, and Temir AI in August.
 
-- Arzan is a cross-border marketplace. I built its FastAPI/PostgreSQL API (90+ endpoints, 2,300+ backend tests), a React/TypeScript operator console and an Expo app.
+- Arzan is a pre-launch cross-border e-commerce startup (China to Kyrgyzstan). I built its FastAPI/PostgreSQL API (90+ endpoints, 2,300+ backend tests), a React/TypeScript operator console and an Expo app. [Read the case study](https://alekseilian.com/arzan).
 - Tanish is a dating app for Central Asia: a FastAPI/PostgreSQL backend with 2,600+ tests, a React Native iOS app on TestFlight, AWS face-liveness checks and 4 languages. [Read the case study](https://alekseilian.com/tanish).
-- Temir AI turns customer orders into priced quotes. At our pilot customer, a metal supplier, 4 sales managers at 2 warehouses use it for orders that arrive as chat text, PDFs, spreadsheets or photos. The LLM parses each order into line items, and unit prices come from the catalog.
+- Temir AI turns customer orders into priced quotes. At our pilot customer, a metal supplier, 4 sales managers at 2 warehouses have used it to make about 75 quotes since August, from orders that arrive as chat text, PDFs, spreadsheets or photos. The LLM parses each order into line items, and unit prices come from the catalog.
 
 Over summer 2026 I also built Mendy, an advice app that remembers you: FastAPI, async SQLAlchemy and PostgreSQL, with long-term memory and a tiered safety pipeline.
 
-The startup code is private. The public repos are below.
+#### How I work
+
+I wrote the chess engine and the first Flask version of the URL shortener in February 2026, with AI help. Since March I've built mostly with AI coding agents: Claude Code day to day, and Codex and Google Antigravity as well. I make the design calls, like the data model and what a job should do if it crashes halfway, then review what the agent writes and test it before it goes in. Agents are confidently wrong often enough that I check every review finding against the source before fixing anything, and I don't trust a change until a test covers it. On Arzan I ran 17 review passes, each aimed at the fixes from the pass before, and several of them caught bugs that the previous round of fixes had introduced.
+
+The shortener's FastAPI rewrite, its tests, the READMEs and my site were built that way. In November a code review found bugs in both public repos, and I typed in the fixes and their tests by hand.
+
+The startup code stays private, so I'm rebuilding a few of its harder parts as small public repos, by hand. First is the Arzan order claim: two operators could claim the same order, and the fix is a row lock with a test that races two Postgres sessions. After that come Tanish's refresh tokens, which rotate on every use and revoke the whole chain when an old one comes back.
 
 #### Public code
 
@@ -25,7 +31,7 @@ Languages:      Python, TypeScript, JavaScript, SQL, Java, C
 Backend:        FastAPI, SQLAlchemy 2.0 (async), Pydantic, WebSockets, PostgreSQL, Redis, Supabase
 Frontend:       React, React Native (Expo)
 Infrastructure: Docker, GitHub Actions, Railway, Vercel, GCP, AWS (Rekognition), Linux
-AI:             OpenAI and Anthropic APIs, eval rubrics and golden sets, Claude Code, AI code review
+AI:             OpenAI and Anthropic APIs, eval rubrics and golden sets, Claude Code, Codex, Antigravity, AI code review
 ```
 
 #### Links
