@@ -20,9 +20,7 @@ Over summer 2026 I also built Mendy, an advice app that remembers you: FastAPI, 
 
 I wrote the chess engine and the first Flask version of the URL shortener in February 2026, with AI help. Since March I've built mostly with AI coding agents: Claude Code day to day, and Codex and Google Antigravity as well. I make the design calls, like the data model and what a job should do if it crashes halfway, then review what the agent writes and test it before it goes in. Agents are confidently wrong often enough that I check every review finding against the source before fixing anything, and I don't trust a change until a test covers it. On Arzan I ran 17 review passes, each aimed at the fixes from the pass before, and several of them caught bugs that the previous round of fixes had introduced.
 
-The shortener's FastAPI rewrite, its tests, the READMEs and my site were built that way. In November an AI code review found bugs in both public repos, like a move for the wrong side on a short clock and missed mates in one. I applied each fix and its test myself, one commit per bug.
-
-On Nov 2, 2026 I re-uploaded these repos with the AI tool files and Claude co-author lines taken out of their history. That's why GitHub shows them as created that day, and why commits from March on carry only my name even where an agent wrote the code.
+The shortener's FastAPI rewrite, its tests, the READMEs and my site were built that way. On Nov 2, 2026 I re-uploaded the repos and dropped the Claude co-author lines and AI tool files from their history. Then an AI code review found bugs in both public repos, like a move for the wrong side on a short clock and missed mates in one. I made every change and fix by hand, one small commit at a time.
 
 The startup code stays private, so next I'm rebuilding two of its harder parts as small public repos, without an agent: Arzan's order claim, with a test that races two Postgres sessions, and then Tanish's rotating refresh tokens. I'll link them here when they're up.
 
