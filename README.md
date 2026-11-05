@@ -14,6 +14,7 @@ Over summer 2026 I also built Mendy, an advice app that remembers you: FastAPI, 
 |---------|-------------|-------|
 | [URL Shortener](https://github.com/alxlyn/alex-url-shortener) | Async link shortener with retry-on-conflict inserts, per-IP rate limiting and CI against a live Postgres | Python, FastAPI, asyncpg, PostgreSQL, Docker |
 | [Chess Engine](https://github.com/alxlyn/alex-chess-engine) | UCI engine with negamax, alpha-beta, quiescence, a transposition table and clock management | Python |
+| [Order Claim](https://github.com/alxlyn/order-claim) | A rebuild of Arzan's order claim, with a test that races two Postgres sessions for one order | Python, FastAPI, SQLAlchemy, PostgreSQL |
 | [Portfolio](https://github.com/alxlyn/personal-portfolio) | My site, [alekseilian.com](https://alekseilian.com) | React, Vite |
 
 #### How I work
@@ -22,7 +23,7 @@ I wrote the chess engine and the first Flask version of the URL shortener in Feb
 
 The shortener's FastAPI rewrite, its tests, the READMEs and my site were built that way. On Nov 2, 2026 I re-uploaded the repos and dropped the Claude co-author lines and AI tool files from their history. Then an AI code review found bugs in both public repos, like a move for the wrong side on a short clock and missed mates in one. I made every change and fix by hand, one small commit at a time.
 
-The startup code stays private, so next I'm rebuilding two of its harder parts as small public repos, without an agent: Arzan's order claim, with a test that races two Postgres sessions, and then Tanish's rotating refresh tokens. I'll link them here when they're up.
+The startup code stays private, so I'm rebuilding two of its harder parts as small public repos, without an agent. The first is [order-claim](https://github.com/alxlyn/order-claim), Arzan's order claim with a test that races two Postgres sessions. Next is Tanish's rotating refresh tokens.
 
 #### What I use
 
